@@ -1,12 +1,8 @@
 import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 
-interface MainLayoutProps {
-  children: ReactNode;
-}
-
-const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
+const MainLayout = ({ children }: { children: ReactNode }) => {
   return (
     <main className="min-h-screen">
       <Navbar />
