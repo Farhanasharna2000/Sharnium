@@ -47,7 +47,7 @@ const Navbar = () => {
             Sharnium
           </Link>
 
-          {/* navigation links  */}
+          {/* navigation links */}
           <NavigationMenu>
             <NavigationMenuList className="hidden lg:flex space-x-6  font-medium ">
               {links.map((link, idx) => (
