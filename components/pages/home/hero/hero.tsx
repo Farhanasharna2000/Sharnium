@@ -8,7 +8,7 @@ import { stats } from "@/data/hero";
 const HeroSection = () => {
   return (
     <Container>
-      <div className="md:flex justify-between py-10 md:py-40">
+      <div className="md:flex justify-between py-10 md:py-20">
         <div className="flex flex-col md:flex-row col-span-1 items-center md:items-start gap-12">
         
           <div className="space-y-8 animate-fade-in w-full ">
